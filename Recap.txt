@@ -1,0 +1,26 @@
+Recap
+Git - version(source) control system
+Who, Where, What
+
+Similiar tools: SVN, TFS, Mercurial etc.
+
+Files:
+Text files : *.txt, *.xml, *.cs, *.ts etc.
+Binary: Image, Video, Audio, PDF, Docx, PPT etc.
+
+Repository
+
+- Initialize (One time)
+- Config (One time)
+
+For Every Change
+- Add/Staging
+- Commit
+
+Next Clases
+-GitHub - Repo Store which support VCS (Git)
+- Other Tools -Gitlab, BitBucket etc.
+- Local Vs Remote
+- Pull/Push/Fetch
+- Branching Model
+
