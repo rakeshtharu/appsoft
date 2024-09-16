@@ -3,44 +3,21 @@
 
 <head>
     <title>NAST Dhangadhi</title>
+    <link rel="stylesheet" href="css/college.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script>
+        //let,var, const;
+        const title = 'NAST Portal'
 
-    <style>
-     
-      .form{
-       align-self: flex-end;
-       width: auto;
-       padding: 5px;
-       background-color: beige;
-      }
-      input{
-        border: 1px solid blue;
-        border-radius: 10px;
-        height: 30px;
-        width: 500px;
-      }
-      label{
-        font-size: x-large;
-      }
-      textarea{
-        height:200px;
-        width: 500px;
-        border-radius: 10px;
-      }
-      button{
-        height:50px;
-        width: 500px;
-        border-radius: 10px;
-        color: white;
-        font-weight: 100;
-        background-color: #ff1706;
-        border: #df1b1b;
-      }
-    </style>
+        function showTitle() {
+            alert('You are in ' + title);
+        }
+    </script>
 </head>
 
 <body>
     <h2>Introduction</h2>
-    <p>
+    <p class="parastyle">
         Among the affiliated educational institutions of Pokhara University, it is the first educational institution to
         receive the Quality Assurance and Accreditation (QAA) certificate from the University Grants Commission (UGC).
     </p>
@@ -48,7 +25,7 @@
         <img height="300" src="https://nast.edu.np/wp-content/uploads/2024/07/1708434571036-1-scaled.jpg" alt="">
     </div>
     <h2> QAA Certified and 24 year of experience </h2>
-    <p>
+    <p class="parastyle">
         QAA Certified and 24 Years of Experience
         National Academy of Science and Technology, popularly known as NAST, is an QAA Certified, english medium co-
         educational Institution. Patroned and promoted by a team of academicians, researchers and professionals renowned
@@ -60,8 +37,7 @@
 
     <h2>Contact Us</h2>
 
-    <form action="#">
-        <div class="form">
+    <form action="#" class="form">
             <div class="items">
                 <label for="firstName">First Name</label><br>
                 <input type="text" name="firstName">
@@ -83,10 +59,8 @@
                 <textarea name="message" id="message"></textarea>
             </div>
             <div class="items">
-                <button type="submit">Submit</button>
+                <button type="submit" onclick="showTitle()">Save</button>
             </div>
-        </div>
-
     </form>
 
 </body>
